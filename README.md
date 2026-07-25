@@ -69,3 +69,104 @@ AI & Data Science Student | Full-Stack Developer | Frontend Developer | QA Teste
 - 📈 Strengthening Problem Solving Skills
 
 ---
+
+---
+
+# 🚀 Featured Projects
+
+<table>
+<tr>
+<td width="50%">
+
+### 🤖 AI Tutor
+
+An AI-powered learning platform that helps students learn through interactive AI-driven educational experiences.
+
+**🛠 Tech Stack**
+
+React • JavaScript • Vite • AI
+
+<p>
+<a href="https://ai-tutor-lkgf.vercel.app/" target="_blank">
+<img src="https://img.shields.io/badge/🌐_Live_Demo-00C853?style=for-the-badge"/>
+</a>
+
+<a href="https://github.com/BOOPATHI-RAJAMANI/AI-Tutor" target="_blank">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+</p>
+
+</td>
+
+<td width="50%">
+
+### 🔗 AI URL Shortener
+
+A modern URL shortening platform with analytics, QR code generation and responsive UI.
+
+**🛠 Tech Stack**
+
+React • Node.js • MongoDB
+
+<p>
+
+<a href="https://boopathibuilds.netlify.app/" target="_blank">
+<img src="https://img.shields.io/badge/🌐_Live_Demo-00C853?style=for-the-badge"/>
+</a>
+
+<a href="https://github.com/BOOPATHI-RAJAMANI/url-shortner-frontend" target="_blank">
+<img src="https://img.shields.io/badge/Frontend-0A66C2?style=for-the-badge"/>
+</a>
+
+<a href="https://github.com/BOOPATHI-RAJAMANI/url-shortner.backend" target="_blank">
+<img src="https://img.shields.io/badge/Backend-181717?style=for-the-badge"/>
+</a>
+
+</p>
+
+</td>
+</tr>
+
+<tr>
+
+<td width="50%">
+
+### 🌐 Personal Portfolio
+
+My personal developer portfolio showcasing my projects, technical skills and achievements.
+
+**🛠 Tech Stack**
+
+React • JavaScript • Vite
+
+<p>
+
+<a href="https://boopathi-builds.netlify.app/" target="_blank">
+<img src="https://img.shields.io/badge/🌐_Live_Demo-00C853?style=for-the-badge"/>
+</a>
+
+<a href="https://github.com/BOOPATHI-RAJAMANI/portfolio" target="_blank">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+</p>
+
+</td>
+
+<td width="50%">
+
+### 🏥 Dotzza
+
+Contributed as a **Frontend Developer & QA Tester Intern**, working on UI pages, testing, debugging, and improving application quality during my internship.
+
+**🛠 Contribution**
+
+React • QA Testing • UI Development
+
+</td>
+
+</tr>
+
+</table>
+
+---
