@@ -193,3 +193,38 @@ React • QA Testing • UI Development
 </p>
 
 ---
+
+# 💼 Experience
+
+### 🚀 Frontend Developer & QA Tester Intern
+**SeeDataMD Pvt. Ltd.** *(Sep 2025 – Apr 2026)*
+
+> 💻 Developed responsive frontend components.
+>
+> 🧪 Performed functional, UI & regression testing.
+>
+> 🤝 Collaborated with developers to improve user experience.
+>
+> 🐞 Validated bug fixes and ensured release quality.
+
+---
+
+# 🏅 Certifications
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/HackerRank-Java_(Basic)-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/HackerRank-Problem_Solving_(Basic)-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/UI%2FUX-Design-blue?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/C-Programming-00599C?style=for-the-badge&logo=c&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/ISRO-Hackathon-orange?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/National_Science_Day-Oral_Presentation-purple?style=for-the-badge"/>
+
+</p>
+
+---
