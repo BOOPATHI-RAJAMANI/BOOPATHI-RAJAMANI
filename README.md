@@ -170,3 +170,18 @@ React • QA Testing • UI Development
 </table>
 
 ---
+
+
+---
+
+---
+
+# 📊 GitHub Activity
+
+<p align="center">
+
+<img src="https://streak-stats.demolab.com?user=BOOPATHI-RAJAMANI&theme=tokyonight&hide_border=true"/>
+
+</p>
+
+---
