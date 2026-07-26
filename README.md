@@ -29,8 +29,8 @@ AI & Data Science Student | Full-Stack Developer | Frontend Developer | QA Teste
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
-<a href="https://drive.google.com/" target="_blank">
-<img src="https://img.shields.io/badge/Resume-34A853?style=for-the-badge&logo=googledrive&logoColor=white"/>
+<a href="https://docs.google.com/document/d/1P3_67M49Hq3JH6J3MDOaa-Nr6-FzGUvX/edit?usp=drive_link&ouid=105860693520974721241&rtpof=true&sd=true" target="_blank">
+  <img src="https://img.shields.io/badge/Resume-34A853?style=for-the-badge&logo=googledrive&logoColor=white" alt="Resume"/>
 </a>
 </p>
 
