@@ -171,11 +171,6 @@ React • QA Testing • UI Development
 
 ---
 
-
----
-
----
-
 # 📊 GitHub Activity
 
 <p align="center">
@@ -224,6 +219,57 @@ React • QA Testing • UI Development
 <img src="https://img.shields.io/badge/ISRO-Hackathon-orange?style=for-the-badge"/>
 
 <img src="https://img.shields.io/badge/National_Science_Day-Oral_Presentation-purple?style=for-the-badge"/>
+
+</p>
+
+---
+---
+
+# 💻 Developer Workspace
+
+<p align="center">
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3Q1cGhjbXN6bzdtN2g5NHBzNjExZWVnOGYxYXBnaHB4aXBvM3RwZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/coxQHKASG60HrHtvkt/giphy.gif" width="700" alt="Developer Workspace"/>
+</p>
+
+<br>
+
+# 🤝 Let's Connect
+
+<p align="center">
+
+<a href="https://boopathi-builds.netlify.app/" target="_blank">
+  <img src="https://img.shields.io/badge/🌐_Portfolio-00C853?style=for-the-badge" />
+</a>
+
+<a href="https://www.linkedin.com/in/boopathi-rajamani-496188334/" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
+</p>
+
+<p align="center">
+
+<a href="mailto:boopathyrajamani@gmail.com">
+  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+
+<a href="https://docs.google.com/document/d/1P3_67M49Hq3JH6J3MDOaa-Nr6-FzGUvX/edit?usp=sharing&ouid=105860693520974721241&rtpof=true&sd=true" target="_blank">
+  <img src="https://img.shields.io/badge/📄_Resume-181717?style=for-the-badge" />
+</a>
+
+</p>
+
+<br>
+
+<p align="center">
+
+## ⭐ Thanks for Visiting!
+
+### *"Building intelligent solutions, one commit at a time."*
+
+### 🤖 AI • ☕ Java • ⚛️ Full Stack Development
+
+### 🚀 See you in the next commit!
 
 </p>
 
