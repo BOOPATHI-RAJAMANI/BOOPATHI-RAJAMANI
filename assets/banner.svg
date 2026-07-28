@@ -1,1 +1,111 @@
+<svg width="1600" height="500" viewBox="0 0 1600 500"
+xmlns="http://www.w3.org/2000/svg">
 
+<!-- ========================= -->
+<!-- Definitions -->
+<!-- ========================= -->
+
+<defs>
+
+<!-- Animated Background Gradient -->
+
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+
+<stop offset="0%" stop-color="#0f172a">
+<animate attributeName="stop-color"
+values="#0f172a;#111827;#1e1b4b;#0f172a"
+dur="12s"
+repeatCount="indefinite"/>
+</stop>
+
+<stop offset="100%" stop-color="#0b1120">
+<animate attributeName="stop-color"
+values="#0b1120;#0c1f3a;#111827;#0b1120"
+dur="12s"
+repeatCount="indefinite"/>
+</stop>
+
+</linearGradient>
+
+<!-- Blue Glow -->
+
+<radialGradient id="glowBlue">
+
+<stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8"/>
+
+<stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+
+</radialGradient>
+
+<!-- Purple Glow -->
+
+<radialGradient id="glowPurple">
+
+<stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.8"/>
+
+<stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+
+</radialGradient>
+
+</defs>
+
+<!-- ========================= -->
+<!-- Background -->
+<!-- ========================= -->
+
+<rect
+width="1600"
+height="500"
+fill="url(#bg)"
+/>
+
+<!-- ========================= -->
+<!-- Left Glow -->
+<!-- ========================= -->
+
+<circle cx="220" cy="120" r="220"
+fill="url(#glowBlue)">
+
+<animate
+attributeName="r"
+values="180;230;180"
+dur="8s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<!-- ========================= -->
+<!-- Right Glow -->
+<!-- ========================= -->
+
+<circle cx="1380" cy="360" r="250"
+fill="url(#glowPurple)">
+
+<animate
+attributeName="r"
+values="220;280;220"
+dur="10s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<!-- ========================= -->
+<!-- Bottom Neon Line -->
+<!-- ========================= -->
+
+<rect
+x="0"
+y="495"
+width="1600"
+height="5"
+fill="#38bdf8">
+
+<animate
+attributeName="opacity"
+values="0.3;1;0.3"
+dur="4s"
+repeatCount="indefinite"/>
+
+</rect>
+
+</svg>
