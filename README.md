@@ -1,8 +1,3 @@
-<p align="center">
-  <img src="assets/banner.svg" width="100%" />
-</p>
-<h1 align="center">Hi 👋, I'm Boopathi Rajamani</h1>
-
 <h3 align="center">
 AI & Data Science Student | Full-Stack Developer | Frontend Developer | QA Tester
 </h3>
