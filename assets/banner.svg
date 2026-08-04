@@ -1,111 +1,465 @@
-<svg width="1600" height="500" viewBox="0 0 1600 500"
-xmlns="http://www.w3.org/2000/svg">
-
-<!-- ========================= -->
-<!-- Definitions -->
-<!-- ========================= -->
+<svg viewBox="0 0 1600 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Boopathi — Artificial Intelligence and Data Science Engineer">
+<title>Boopathi — AI &amp; Data Science Engineer</title>
 
 <defs>
 
-<!-- Animated Background Gradient -->
+  <!-- ============ BACKGROUND GRADIENTS ============ -->
+  <radialGradient id="bgRadial" cx="28%" cy="42%" r="85%">
+    <stop offset="0%"  stop-color="#0B1524"/>
+    <stop offset="55%" stop-color="#05070D"/>
+    <stop offset="100%" stop-color="#020308"/>
+    <animate attributeName="cx" values="28%;33%;25%;28%" dur="63s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="42%;37%;46%;42%" dur="71s" repeatCount="indefinite"/>
+  </radialGradient>
 
-<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+  <radialGradient id="ambientLight" cx="74%" cy="34%" r="55%">
+    <stop offset="0%"   stop-color="#164E8C" stop-opacity="0.38"/>
+    <stop offset="45%"  stop-color="#164E8C" stop-opacity="0.10"/>
+    <stop offset="100%" stop-color="#164E8C" stop-opacity="0"/>
+    <animate attributeName="cx" values="74%;69%;78%;74%" dur="79s" repeatCount="indefinite"/>
+  </radialGradient>
 
-<stop offset="0%" stop-color="#0f172a">
-<animate attributeName="stop-color"
-values="#0f172a;#111827;#1e1b4b;#0f172a"
-dur="12s"
-repeatCount="indefinite"/>
-</stop>
+  <radialGradient id="ambientLight2" cx="62%" cy="70%" r="45%">
+    <stop offset="0%"   stop-color="#6D5EF5" stop-opacity="0.20"/>
+    <stop offset="55%"  stop-color="#6D5EF5" stop-opacity="0.05"/>
+    <stop offset="100%" stop-color="#6D5EF5" stop-opacity="0"/>
+    <animate attributeName="cy" values="70%;64%;74%;70%" dur="68s" repeatCount="indefinite"/>
+  </radialGradient>
 
-<stop offset="100%" stop-color="#0b1120">
-<animate attributeName="stop-color"
-values="#0b1120;#0c1f3a;#111827;#0b1120"
-dur="12s"
-repeatCount="indefinite"/>
-</stop>
+  <radialGradient id="vignette" cx="50%" cy="52%" r="78%">
+    <stop offset="55%"  stop-color="#000000" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#000000" stop-opacity="0.6"/>
+  </radialGradient>
 
-</linearGradient>
+  <linearGradient id="scanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%"   stop-color="#FFFFFF" stop-opacity="0"/>
+    <stop offset="50%"  stop-color="#FFFFFF" stop-opacity="0.05"/>
+    <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+  </linearGradient>
 
-<!-- Blue Glow -->
+  <pattern id="grid" width="58" height="58" patternUnits="userSpaceOnUse">
+    <path d="M58 0 H0 V58" fill="none" stroke="#3BD9FF" stroke-opacity="0.045" stroke-width="1"/>
+  </pattern>
 
-<radialGradient id="glowBlue">
+  <!-- ============ RIBBON GRADIENTS ============ -->
+  <linearGradient id="gradA" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%"   stop-color="#164E8C" stop-opacity="0"/>
+    <stop offset="32%"  stop-color="#3BD9FF" stop-opacity="0.95"/>
+    <stop offset="66%"  stop-color="#6D5EF5" stop-opacity="0.85"/>
+    <stop offset="100%" stop-color="#3BD9FF" stop-opacity="0"/>
+    <animate attributeName="x1" values="0%;18%;0%" dur="47s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="100%;82%;100%" dur="47s" repeatCount="indefinite"/>
+  </linearGradient>
 
-<stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8"/>
+  <linearGradient id="gradB" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%"   stop-color="#6D5EF5" stop-opacity="0"/>
+    <stop offset="30%"  stop-color="#6D5EF5" stop-opacity="0.8"/>
+    <stop offset="68%"  stop-color="#3BD9FF" stop-opacity="0.9"/>
+    <stop offset="100%" stop-color="#164E8C" stop-opacity="0"/>
+    <animate attributeName="x1" values="0%;-14%;0%" dur="53s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="100%;114%;100%" dur="53s" repeatCount="indefinite"/>
+  </linearGradient>
 
-<stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+  <linearGradient id="gradC" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%"   stop-color="#3BD9FF" stop-opacity="0"/>
+    <stop offset="34%"  stop-color="#164E8C" stop-opacity="0.85"/>
+    <stop offset="70%"  stop-color="#6D5EF5" stop-opacity="0.8"/>
+    <stop offset="100%" stop-color="#3BD9FF" stop-opacity="0"/>
+    <animate attributeName="x1" values="0%;12%;0%" dur="41s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="100%;88%;100%" dur="41s" repeatCount="indefinite"/>
+  </linearGradient>
 
-</radialGradient>
+  <linearGradient id="gradD" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%"   stop-color="#164E8C" stop-opacity="0"/>
+    <stop offset="30%"  stop-color="#164E8C" stop-opacity="0.85"/>
+    <stop offset="64%"  stop-color="#3BD9FF" stop-opacity="0.9"/>
+    <stop offset="100%" stop-color="#6D5EF5" stop-opacity="0"/>
+    <animate attributeName="x1" values="0%;-10%;0%" dur="59s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="100%;110%;100%" dur="59s" repeatCount="indefinite"/>
+  </linearGradient>
 
-<!-- Purple Glow -->
+  <linearGradient id="gradE" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%"   stop-color="#6D5EF5" stop-opacity="0"/>
+    <stop offset="32%"  stop-color="#3BD9FF" stop-opacity="0.75"/>
+    <stop offset="66%"  stop-color="#164E8C" stop-opacity="0.85"/>
+    <stop offset="100%" stop-color="#6D5EF5" stop-opacity="0"/>
+    <animate attributeName="x1" values="0%;16%;0%" dur="44s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="100%;84%;100%" dur="44s" repeatCount="indefinite"/>
+  </linearGradient>
 
-<radialGradient id="glowPurple">
+  <linearGradient id="gradF" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%"   stop-color="#3BD9FF" stop-opacity="0"/>
+    <stop offset="30%"  stop-color="#6D5EF5" stop-opacity="0.7"/>
+    <stop offset="70%"  stop-color="#164E8C" stop-opacity="0.75"/>
+    <stop offset="100%" stop-color="#3BD9FF" stop-opacity="0"/>
+    <animate attributeName="x1" values="0%;-16%;0%" dur="50s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="100%;116%;100%" dur="50s" repeatCount="indefinite"/>
+  </linearGradient>
 
-<stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.8"/>
+  <radialGradient id="nodeGlow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%"   stop-color="#FFFFFF" stop-opacity="0.95"/>
+    <stop offset="35%"  stop-color="#3BD9FF" stop-opacity="0.55"/>
+    <stop offset="100%" stop-color="#3BD9FF" stop-opacity="0"/>
+  </radialGradient>
 
-<stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+  <radialGradient id="haze" cx="50%" cy="50%" r="50%">
+    <stop offset="0%"   stop-color="#6D5EF5" stop-opacity="0.18"/>
+    <stop offset="100%" stop-color="#6D5EF5" stop-opacity="0"/>
+  </radialGradient>
 
-</radialGradient>
+  <linearGradient id="glassFill" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%"   stop-color="#FFFFFF" stop-opacity="0.12"/>
+    <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.02"/>
+  </linearGradient>
+
+  <linearGradient id="titleFade" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#FFFFFF"/>
+    <stop offset="100%" stop-color="#DCE7F5"/>
+  </linearGradient>
+
+  <!-- ============ FILTERS ============ -->
+  <filter id="blurSm" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1"/></filter>
+  <filter id="blurMd" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="4"/></filter>
+  <filter id="blurLg" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="10"/></filter>
+  <filter id="blurXl" x="-120%" y="-120%" width="340%" height="340%"><feGaussianBlur stdDeviation="24"/></filter>
+  <filter id="glassBlur" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="6"/></filter>
+  <filter id="noiseFilter" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="n"/>
+    <feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.025 0"/>
+  </filter>
+
+  <!-- ============ RIBBON MOTION PATHS (reference only) ============ -->
+  <path id="mp1" d="M -40,190 C 140,130 300,250 480,190 C 660,130 800,270 1000,210"/>
+  <path id="mp2" d="M -40,270 C 160,330 320,190 500,270 C 680,350 840,210 1000,270"/>
+  <path id="mp3" d="M -40,90  C 200,150 360,70  520,130 C 700,190 860,110 1000,150"/>
+  <path id="mp4" d="M -40,390 C 200,330 360,420 520,360 C 700,300 860,400 1000,370"/>
+  <path id="mp5" d="M -40,230 C 150,270 300,190 460,230 C 640,270 820,190 1000,230"/>
+  <path id="mp6" d="M -40,310 C 250,270 400,340 600,300 C 780,260 900,320 1000,300"/>
 
 </defs>
 
-<!-- ========================= -->
-<!-- Background -->
-<!-- ========================= -->
+<!-- ============================================================ -->
+<!-- BACKGROUND LAYERS -->
+<!-- ============================================================ -->
+<rect width="1600" height="500" fill="#05070D"/>
+<rect width="1600" height="500" fill="url(#bgRadial)"/>
+<rect width="1600" height="500" fill="url(#ambientLight)"/>
+<rect width="1600" height="500" fill="url(#ambientLight2)"/>
+<rect x="620" width="980" height="500" fill="url(#grid)"/>
+<rect width="1600" height="500" filter="url(#noiseFilter)" opacity="0.5"/>
 
-<rect
-width="1600"
-height="500"
-fill="url(#bg)"
-/>
+<!-- ============================================================ -->
+<!-- RIGHT SIDE — LIVING COMPUTATIONAL ENERGY SYSTEM -->
+<!-- ============================================================ -->
+<g transform="translate(620,0)">
 
-<!-- ========================= -->
-<!-- Left Glow -->
-<!-- ========================= -->
+  <!-- volumetric haze behind the ribbons -->
+  <ellipse cx="520" cy="230" rx="420" ry="230" fill="url(#haze)" filter="url(#blurXl)">
+    <animate attributeName="rx" values="420;448;410;420" dur="57s" repeatCount="indefinite"/>
+  </ellipse>
 
-<circle cx="220" cy="120" r="220"
-fill="url(#glowBlue)">
+  <g id="ribbonSystem">
+    <animateTransform attributeName="transform" type="translate" values="0,0;3,-2;-2,2;1,-1;0,0" dur="24s" repeatCount="indefinite"/>
 
-<animate
-attributeName="r"
-values="180;230;180"
-dur="8s"
-repeatCount="indefinite"/>
+    <!-- ===== RIBBON 1 ===== -->
+    <g>
+      <path fill="none" stroke="url(#gradA)" stroke-width="50" stroke-linecap="round" opacity="0.07" filter="url(#blurXl)"
+        d="M -40,190 C 140,130 300,250 480,190 C 660,130 800,270 1000,210">
+        <animate attributeName="d" dur="14.5s" repeatCount="indefinite"
+          values="M -40,190 C 140,130 300,250 480,190 C 660,130 800,270 1000,210;
+                  M -40,185 C 140,135 300,245 480,195 C 660,135 800,265 1000,215;
+                  M -40,190 C 140,130 300,250 480,190 C 660,130 800,270 1000,210"/>
+      </path>
+      <path fill="none" stroke="url(#gradA)" stroke-width="24" stroke-linecap="round" opacity="0.16" filter="url(#blurLg)"
+        d="M -40,190 C 140,130 300,250 480,190 C 660,130 800,270 1000,210">
+        <animate attributeName="d" dur="15.2s" repeatCount="indefinite"
+          values="M -40,190 C 140,130 300,250 480,190 C 660,130 800,270 1000,210;
+                  M -40,185 C 140,135 300,245 480,195 C 660,135 800,265 1000,215;
+                  M -40,190 C 140,130 300,250 480,190 C 660,130 800,270 1000,210"/>
+      </path>
+      <path fill="none" stroke="url(#gradA)" stroke-width="9" stroke-linecap="round" opacity="0.42" filter="url(#blurMd)"
+        d="M -40,190 C 140,130 300,250 480,190 C 660,130 800,270 1000,210">
+        <animate attributeName="d" dur="14.8s" repeatCount="indefinite"
+          values="M -40,190 C 140,130 300,250 480,190 C 660,130 800,270 1000,210;
+                  M -40,185 C 140,135 300,245 480,195 C 660,135 800,265 1000,215;
+                  M -40,190 C 140,130 300,250 480,190 C 660,130 800,270 1000,210"/>
+      </path>
+      <path fill="none" stroke="url(#gradA)" stroke-width="2.4" stroke-linecap="round" opacity="0.9" filter="url(#blurSm)"
+        d="M -40,190 C 140,130 300,250 480,190 C 660,130 800,270 1000,210">
+        <animate attributeName="d" dur="14.5s" repeatCount="indefinite"
+          values="M -40,190 C 140,130 300,250 480,190 C 660,130 800,270 1000,210;
+                  M -40,185 C 140,135 300,245 480,195 C 660,135 800,265 1000,215;
+                  M -40,190 C 140,130 300,250 480,190 C 660,130 800,270 1000,210"/>
+        <animate attributeName="stroke-width" values="2.4;3.1;2.4" dur="9s" repeatCount="indefinite"/>
+      </path>
+      <circle r="3.2" fill="#FFFFFF" filter="url(#blurSm)">
+        <animateMotion dur="9.5s" repeatCount="indefinite" begin="0s"><mpath href="#mp1"/></animateMotion>
+        <animate attributeName="opacity" values="0;0.95;0.95;0" keyTimes="0;0.08;0.9;1" dur="9.5s" repeatCount="indefinite" begin="0s"/>
+      </circle>
+      <circle r="1.6" fill="#3BD9FF" filter="url(#blurSm)">
+        <animateMotion dur="6.3s" repeatCount="indefinite" begin="2.1s"><mpath href="#mp1"/></animateMotion>
+        <animate attributeName="opacity" values="0;0.8;0.8;0" keyTimes="0;0.1;0.85;1" dur="6.3s" repeatCount="indefinite" begin="2.1s"/>
+      </circle>
+    </g>
 
-</circle>
+    <!-- ===== RIBBON 2 ===== -->
+    <g>
+      <path fill="none" stroke="url(#gradB)" stroke-width="46" stroke-linecap="round" opacity="0.06" filter="url(#blurXl)"
+        d="M -40,270 C 160,330 320,190 500,270 C 680,350 840,210 1000,270">
+        <animate attributeName="d" dur="16.4s" repeatCount="indefinite"
+          values="M -40,270 C 160,330 320,190 500,270 C 680,350 840,210 1000,270;
+                  M -40,265 C 160,325 320,195 500,265 C 680,345 840,215 1000,265;
+                  M -40,270 C 160,330 320,190 500,270 C 680,350 840,210 1000,270"/>
+      </path>
+      <path fill="none" stroke="url(#gradB)" stroke-width="22" stroke-linecap="round" opacity="0.14" filter="url(#blurLg)"
+        d="M -40,270 C 160,330 320,190 500,270 C 680,350 840,210 1000,270">
+        <animate attributeName="d" dur="17.1s" repeatCount="indefinite"
+          values="M -40,270 C 160,330 320,190 500,270 C 680,350 840,210 1000,270;
+                  M -40,265 C 160,325 320,195 500,265 C 680,345 840,215 1000,265;
+                  M -40,270 C 160,330 320,190 500,270 C 680,350 840,210 1000,270"/>
+      </path>
+      <path fill="none" stroke="url(#gradB)" stroke-width="8" stroke-linecap="round" opacity="0.38" filter="url(#blurMd)"
+        d="M -40,270 C 160,330 320,190 500,270 C 680,350 840,210 1000,270">
+        <animate attributeName="d" dur="16.7s" repeatCount="indefinite"
+          values="M -40,270 C 160,330 320,190 500,270 C 680,350 840,210 1000,270;
+                  M -40,265 C 160,325 320,195 500,265 C 680,345 840,215 1000,265;
+                  M -40,270 C 160,330 320,190 500,270 C 680,350 840,210 1000,270"/>
+      </path>
+      <path fill="none" stroke="url(#gradB)" stroke-width="2.1" stroke-linecap="round" opacity="0.85" filter="url(#blurSm)"
+        d="M -40,270 C 160,330 320,190 500,270 C 680,350 840,210 1000,270">
+        <animate attributeName="d" dur="16.4s" repeatCount="indefinite"
+          values="M -40,270 C 160,330 320,190 500,270 C 680,350 840,210 1000,270;
+                  M -40,265 C 160,325 320,195 500,265 C 680,345 840,215 1000,265;
+                  M -40,270 C 160,330 320,190 500,270 C 680,350 840,210 1000,270"/>
+      </path>
+      <circle r="2.8" fill="#FFFFFF" filter="url(#blurSm)">
+        <animateMotion dur="11.2s" repeatCount="indefinite" begin="1.3s"><mpath href="#mp2"/></animateMotion>
+        <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.09;0.88;1" dur="11.2s" repeatCount="indefinite" begin="1.3s"/>
+      </circle>
+    </g>
 
-<!-- ========================= -->
-<!-- Right Glow -->
-<!-- ========================= -->
+    <!-- ===== RIBBON 3 ===== -->
+    <g>
+      <path fill="none" stroke="url(#gradC)" stroke-width="40" stroke-linecap="round" opacity="0.055" filter="url(#blurXl)"
+        d="M -40,90 C 200,150 360,70 520,130 C 700,190 860,110 1000,150">
+        <animate attributeName="d" dur="18.3s" repeatCount="indefinite"
+          values="M -40,90 C 200,150 360,70 520,130 C 700,190 860,110 1000,150;
+                  M -40,95 C 200,145 360,75 520,135 C 700,185 860,115 1000,155;
+                  M -40,90 C 200,150 360,70 520,130 C 700,190 860,110 1000,150"/>
+      </path>
+      <path fill="none" stroke="url(#gradC)" stroke-width="20" stroke-linecap="round" opacity="0.13" filter="url(#blurLg)"
+        d="M -40,90 C 200,150 360,70 520,130 C 700,190 860,110 1000,150">
+        <animate attributeName="d" dur="19.1s" repeatCount="indefinite"
+          values="M -40,90 C 200,150 360,70 520,130 C 700,190 860,110 1000,150;
+                  M -40,95 C 200,145 360,75 520,135 C 700,185 860,115 1000,155;
+                  M -40,90 C 200,150 360,70 520,130 C 700,190 860,110 1000,150"/>
+      </path>
+      <path fill="none" stroke="url(#gradC)" stroke-width="7" stroke-linecap="round" opacity="0.34" filter="url(#blurMd)"
+        d="M -40,90 C 200,150 360,70 520,130 C 700,190 860,110 1000,150">
+        <animate attributeName="d" dur="18.7s" repeatCount="indefinite"
+          values="M -40,90 C 200,150 360,70 520,130 C 700,190 860,110 1000,150;
+                  M -40,95 C 200,145 360,75 520,135 C 700,185 860,115 1000,155;
+                  M -40,90 C 200,150 360,70 520,130 C 700,190 860,110 1000,150"/>
+      </path>
+      <path fill="none" stroke="url(#gradC)" stroke-width="1.8" stroke-linecap="round" opacity="0.8" filter="url(#blurSm)"
+        d="M -40,90 C 200,150 360,70 520,130 C 700,190 860,110 1000,150">
+        <animate attributeName="d" dur="18.3s" repeatCount="indefinite"
+          values="M -40,90 C 200,150 360,70 520,130 C 700,190 860,110 1000,150;
+                  M -40,95 C 200,145 360,75 520,135 C 700,185 860,115 1000,155;
+                  M -40,90 C 200,150 360,70 520,130 C 700,190 860,110 1000,150"/>
+      </path>
+      <circle r="2.2" fill="#3BD9FF" filter="url(#blurSm)">
+        <animateMotion dur="13.6s" repeatCount="indefinite" begin="4.4s"><mpath href="#mp3"/></animateMotion>
+        <animate attributeName="opacity" values="0;0.85;0.85;0" keyTimes="0;0.1;0.9;1" dur="13.6s" repeatCount="indefinite" begin="4.4s"/>
+      </circle>
+    </g>
 
-<circle cx="1380" cy="360" r="250"
-fill="url(#glowPurple)">
+    <!-- ===== RIBBON 4 ===== -->
+    <g>
+      <path fill="none" stroke="url(#gradD)" stroke-width="42" stroke-linecap="round" opacity="0.055" filter="url(#blurXl)"
+        d="M -40,390 C 200,330 360,420 520,360 C 700,300 860,400 1000,370">
+        <animate attributeName="d" dur="13.2s" repeatCount="indefinite"
+          values="M -40,390 C 200,330 360,420 520,360 C 700,300 860,400 1000,370;
+                  M -40,385 C 200,335 360,415 520,365 C 700,305 860,395 1000,375;
+                  M -40,390 C 200,330 360,420 520,360 C 700,300 860,400 1000,370"/>
+      </path>
+      <path fill="none" stroke="url(#gradD)" stroke-width="21" stroke-linecap="round" opacity="0.12" filter="url(#blurLg)"
+        d="M -40,390 C 200,330 360,420 520,360 C 700,300 860,400 1000,370">
+        <animate attributeName="d" dur="13.9s" repeatCount="indefinite"
+          values="M -40,390 C 200,330 360,420 520,360 C 700,300 860,400 1000,370;
+                  M -40,385 C 200,335 360,415 520,365 C 700,305 860,395 1000,375;
+                  M -40,390 C 200,330 360,420 520,360 C 700,300 860,400 1000,370"/>
+      </path>
+      <path fill="none" stroke="url(#gradD)" stroke-width="7.5" stroke-linecap="round" opacity="0.32" filter="url(#blurMd)"
+        d="M -40,390 C 200,330 360,420 520,360 C 700,300 860,400 1000,370">
+        <animate attributeName="d" dur="13.5s" repeatCount="indefinite"
+          values="M -40,390 C 200,330 360,420 520,360 C 700,300 860,400 1000,370;
+                  M -40,385 C 200,335 360,415 520,365 C 700,305 860,395 1000,375;
+                  M -40,390 C 200,330 360,420 520,360 C 700,300 860,400 1000,370"/>
+      </path>
+      <path fill="none" stroke="url(#gradD)" stroke-width="1.9" stroke-linecap="round" opacity="0.78" filter="url(#blurSm)"
+        d="M -40,390 C 200,330 360,420 520,360 C 700,300 860,400 1000,370">
+        <animate attributeName="d" dur="13.2s" repeatCount="indefinite"
+          values="M -40,390 C 200,330 360,420 520,360 C 700,300 860,400 1000,370;
+                  M -40,385 C 200,335 360,415 520,365 C 700,305 860,395 1000,375;
+                  M -40,390 C 200,330 360,420 520,360 C 700,300 860,400 1000,370"/>
+      </path>
+      <circle r="2.4" fill="#6D5EF5" filter="url(#blurSm)">
+        <animateMotion dur="8.7s" repeatCount="indefinite" begin="3.6s"><mpath href="#mp4"/></animateMotion>
+        <animate attributeName="opacity" values="0;0.85;0.85;0" keyTimes="0;0.09;0.87;1" dur="8.7s" repeatCount="indefinite" begin="3.6s"/>
+      </circle>
+    </g>
 
-<animate
-attributeName="r"
-values="220;280;220"
-dur="10s"
-repeatCount="indefinite"/>
+    <!-- ===== RIBBON 5 (crosses 1 &amp; 2) ===== -->
+    <g>
+      <path fill="none" stroke="url(#gradE)" stroke-width="34" stroke-linecap="round" opacity="0.05" filter="url(#blurXl)"
+        d="M -40,230 C 150,270 300,190 460,230 C 640,270 820,190 1000,230">
+        <animate attributeName="d" dur="17.6s" repeatCount="indefinite"
+          values="M -40,230 C 150,270 300,190 460,230 C 640,270 820,190 1000,230;
+                  M -40,225 C 150,265 300,195 460,225 C 640,265 820,195 1000,225;
+                  M -40,230 C 150,270 300,190 460,230 C 640,270 820,190 1000,230"/>
+      </path>
+      <path fill="none" stroke="url(#gradE)" stroke-width="16" stroke-linecap="round" opacity="0.11" filter="url(#blurLg)"
+        d="M -40,230 C 150,270 300,190 460,230 C 640,270 820,190 1000,230">
+        <animate attributeName="d" dur="18.4s" repeatCount="indefinite"
+          values="M -40,230 C 150,270 300,190 460,230 C 640,270 820,190 1000,230;
+                  M -40,225 C 150,265 300,195 460,225 C 640,265 820,195 1000,225;
+                  M -40,230 C 150,270 300,190 460,230 C 640,270 820,190 1000,230"/>
+      </path>
+      <path fill="none" stroke="url(#gradE)" stroke-width="5.5" stroke-linecap="round" opacity="0.3" filter="url(#blurMd)"
+        d="M -40,230 C 150,270 300,190 460,230 C 640,270 820,190 1000,230">
+        <animate attributeName="d" dur="17.9s" repeatCount="indefinite"
+          values="M -40,230 C 150,270 300,190 460,230 C 640,270 820,190 1000,230;
+                  M -40,225 C 150,265 300,195 460,225 C 640,265 820,195 1000,225;
+                  M -40,230 C 150,270 300,190 460,230 C 640,270 820,190 1000,230"/>
+      </path>
+      <path fill="none" stroke="url(#gradE)" stroke-width="1.5" stroke-linecap="round" opacity="0.7" filter="url(#blurSm)"
+        d="M -40,230 C 150,270 300,190 460,230 C 640,270 820,190 1000,230">
+        <animate attributeName="d" dur="17.6s" repeatCount="indefinite"
+          values="M -40,230 C 150,270 300,190 460,230 C 640,270 820,190 1000,230;
+                  M -40,225 C 150,265 300,195 460,225 C 640,265 820,195 1000,225;
+                  M -40,230 C 150,270 300,190 460,230 C 640,270 820,190 1000,230"/>
+      </path>
+      <circle r="1.8" fill="#FFFFFF" filter="url(#blurSm)">
+        <animateMotion dur="10.4s" repeatCount="indefinite" begin="5.9s"><mpath href="#mp5"/></animateMotion>
+        <animate attributeName="opacity" values="0;0.8;0.8;0" keyTimes="0;0.1;0.86;1" dur="10.4s" repeatCount="indefinite" begin="5.9s"/>
+      </circle>
+    </g>
 
-</circle>
+    <!-- ===== RIBBON 6 (thin accent) ===== -->
+    <g>
+      <path fill="none" stroke="url(#gradF)" stroke-width="24" stroke-linecap="round" opacity="0.045" filter="url(#blurLg)"
+        d="M -40,310 C 250,270 400,340 600,300 C 780,260 900,320 1000,300">
+        <animate attributeName="d" dur="19.8s" repeatCount="indefinite"
+          values="M -40,310 C 250,270 400,340 600,300 C 780,260 900,320 1000,300;
+                  M -40,305 C 250,265 400,335 600,305 C 780,265 900,315 1000,305;
+                  M -40,310 C 250,270 400,340 600,300 C 780,260 900,320 1000,300"/>
+      </path>
+      <path fill="none" stroke="url(#gradF)" stroke-width="1.4" stroke-linecap="round" opacity="0.55" filter="url(#blurSm)"
+        d="M -40,310 C 250,270 400,340 600,300 C 780,260 900,320 1000,300">
+        <animate attributeName="d" dur="19.8s" repeatCount="indefinite"
+          values="M -40,310 C 250,270 400,340 600,300 C 780,260 900,320 1000,300;
+                  M -40,305 C 250,265 400,335 600,305 C 780,265 900,315 1000,305;
+                  M -40,310 C 250,270 400,340 600,300 C 780,260 900,320 1000,300"/>
+      </path>
+      <circle r="1.4" fill="#A5B4C7" filter="url(#blurSm)" opacity="0.75">
+        <animateMotion dur="15.3s" repeatCount="indefinite" begin="7.2s"><mpath href="#mp6"/></animateMotion>
+        <animate attributeName="opacity" values="0;0.6;0.6;0" keyTimes="0;0.1;0.88;1" dur="15.3s" repeatCount="indefinite" begin="7.2s"/>
+      </circle>
+    </g>
 
-<!-- ========================= -->
-<!-- Bottom Neon Line -->
-<!-- ========================= -->
+    <!-- micro reflections — thin travelling highlight dashes -->
+    <path fill="none" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="1" stroke-dasharray="1.5 46" filter="url(#blurSm)"
+      d="M -40,190 C 140,130 300,250 480,190 C 660,130 800,270 1000,210">
+      <animate attributeName="stroke-dashoffset" values="0;-620" dur="12s" repeatCount="indefinite"/>
+    </path>
+    <path fill="none" stroke="#FFFFFF" stroke-opacity="0.4" stroke-width="1" stroke-dasharray="1.2 60" filter="url(#blurSm)"
+      d="M -40,390 C 200,330 360,420 520,360 C 700,300 860,400 1000,370">
+      <animate attributeName="stroke-dashoffset" values="0;-650" dur="15s" repeatCount="indefinite"/>
+    </path>
 
-<rect
-x="0"
-y="495"
-width="1600"
-height="5"
-fill="#38bdf8">
+    <!-- breathing nodes at key intersections -->
+    <circle cx="330" cy="222" r="4" fill="url(#nodeGlow)">
+      <animate attributeName="r" values="4;7.5;4" dur="8.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.45;1;0.45" dur="8.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="650" cy="238" r="3.5" fill="url(#nodeGlow)">
+      <animate attributeName="r" values="3.5;6.5;3.5" dur="9.8s" repeatCount="indefinite" begin="1.4s"/>
+      <animate attributeName="opacity" values="0.4;0.95;0.4" dur="9.8s" repeatCount="indefinite" begin="1.4s"/>
+    </circle>
+    <circle cx="500" cy="266" r="3" fill="url(#nodeGlow)">
+      <animate attributeName="r" values="3;5.5;3" dur="6.6s" repeatCount="indefinite" begin="3.1s"/>
+      <animate attributeName="opacity" values="0.4;0.9;0.4" dur="6.6s" repeatCount="indefinite" begin="3.1s"/>
+    </circle>
 
-<animate
-attributeName="opacity"
-values="0.3;1;0.3"
-dur="4s"
-repeatCount="indefinite"/>
+    <!-- computational pulse — infrequent large emission -->
+    <circle cx="330" cy="222" r="4" fill="none" stroke="#3BD9FF" stroke-width="1.4" opacity="0">
+      <animate attributeName="r" values="4;4;46;4" keyTimes="0;0.55;0.85;1" dur="27s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;0.5;0;0" keyTimes="0;0.55;0.62;0.85;1" dur="27s" repeatCount="indefinite"/>
+    </circle>
+  </g>
 
-</rect>
+  <!-- scan wave -->
+  <rect x="-200" y="0" width="220" height="500" fill="url(#scanGrad)">
+    <animate attributeName="x" values="-220;1100" dur="18s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- particle ecology -->
+  <g fill="#A5B4C7">
+    <circle cx="120" cy="80"  r="1.3" opacity="0.22"><animate attributeName="cy" values="80;72;80" dur="26s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.05;0.28;0.05" dur="21s" repeatCount="indefinite"/></circle>
+    <circle cx="260" cy="410" r="1.1" opacity="0.18"><animate attributeName="cy" values="410;420;410" dur="31s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.05;0.24;0.05" dur="24s" repeatCount="indefinite"/></circle>
+    <circle cx="420" cy="60"  r="1.5" opacity="0.2"><animate attributeName="cx" values="420;430;420" dur="34s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.04;0.26;0.04" dur="27s" repeatCount="indefinite"/></circle>
+    <circle cx="580" cy="440" r="1.2" opacity="0.16"><animate attributeName="cy" values="440;430;440" dur="29s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.05;0.22;0.05" dur="19s" repeatCount="indefinite"/></circle>
+    <circle cx="740" cy="50"  r="1"   opacity="0.2"><animate attributeName="cx" values="740;750;740" dur="37s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.04;0.25;0.04" dur="22s" repeatCount="indefinite"/></circle>
+    <circle cx="880" cy="430" r="1.4" opacity="0.18"><animate attributeName="cy" values="430;420;430" dur="33s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.05;0.24;0.05" dur="25s" repeatCount="indefinite"/></circle>
+    <circle cx="60"  cy="330" r="1.1" opacity="0.15"><animate attributeName="cx" values="60;70;60" dur="28s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.04;0.2;0.04" dur="20s" repeatCount="indefinite"/></circle>
+    <circle cx="190" cy="180" r="1.3" opacity="0.2"><animate attributeName="cy" values="180;188;180" dur="24s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.05;0.26;0.05" dur="18s" repeatCount="indefinite"/></circle>
+    <circle cx="350" cy="470" r="1"   opacity="0.14"><animate attributeName="cx" values="350;342;350" dur="39s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.04;0.2;0.04" dur="30s" repeatCount="indefinite"/></circle>
+    <circle cx="500" cy="30"  r="1.2" opacity="0.18"><animate attributeName="cy" values="30;38;30" dur="27s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.05;0.22;0.05" dur="23s" repeatCount="indefinite"/></circle>
+    <circle cx="640" cy="470" r="1.1" opacity="0.16"><animate attributeName="cx" values="640;650;640" dur="32s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.04;0.2;0.04" dur="26s" repeatCount="indefinite"/></circle>
+    <circle cx="790" cy="180" r="1.4" opacity="0.2"><animate attributeName="cy" values="180;172;180" dur="30s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.05;0.25;0.05" dur="21s" repeatCount="indefinite"/></circle>
+    <circle cx="920" cy="90"  r="1"   opacity="0.15"><animate attributeName="cx" values="920;910;920" dur="35s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.04;0.2;0.04" dur="24s" repeatCount="indefinite"/></circle>
+    <circle cx="960" cy="380" r="1.3" opacity="0.18"><animate attributeName="cy" values="380;390;380" dur="28s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.05;0.23;0.05" dur="19s" repeatCount="indefinite"/></circle>
+    <circle cx="30"  cy="230" r="1.2" opacity="0.16"><animate attributeName="cy" values="230;222;230" dur="36s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.04;0.2;0.04" dur="28s" repeatCount="indefinite"/></circle>
+  </g>
+</g>
+
+<!-- ============================================================ -->
+<!-- VIGNETTE (drawn above the scene, below the text) -->
+<!-- ============================================================ -->
+<rect width="1600" height="500" fill="url(#vignette)"/>
+
+<!-- ============================================================ -->
+<!-- LEFT SIDE — TYPOGRAPHY &amp; ACTIONS -->
+<!-- ============================================================ -->
+<g transform="translate(80,0)" font-family="'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif">
+
+  <text x="2" y="140" fill="#A5B4C7" font-size="15" font-weight="600" letter-spacing="6">HELLO, I&#8217;M</text>
+
+  <text x="0" y="228" fill="url(#titleFade)" font-size="76" font-weight="900" letter-spacing="-1.5">BOOPATHI</text>
+
+  <text x="2" y="268" fill="#3BD9FF" font-size="24" font-weight="600" letter-spacing="0.2">Artificial Intelligence &amp; Data Science Engineer</text>
+
+  <text x="2" y="302" fill="#A5B4C7" font-size="18" font-weight="400" letter-spacing="0.2">Building Intelligent Digital Experiences</text>
+
+  <!-- Portfolio button -->
+  <g transform="translate(0,340)">
+    <rect width="176" height="54" rx="27" fill="#FFFFFF" opacity="0.03" filter="url(#glassBlur)"/>
+    <rect width="176" height="54" rx="27" fill="url(#glassFill)"/>
+    <rect x="0.5" y="0.5" width="175" height="53" rx="26.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.22" stroke-width="1"/>
+    <rect x="1.5" y="1.5" width="173" height="14" rx="7" fill="#FFFFFF" opacity="0.06"/>
+    <text x="88" y="34" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="600" letter-spacing="0.3">Portfolio</text>
+  </g>
+
+  <!-- Resume button -->
+  <g transform="translate(196,340)">
+    <rect width="176" height="54" rx="27" fill="#3BD9FF" opacity="0.05" filter="url(#glassBlur)"/>
+    <rect width="176" height="54" rx="27" fill="url(#glassFill)" opacity="0.7"/>
+    <rect x="0.5" y="0.5" width="175" height="53" rx="26.5" fill="none" stroke="#3BD9FF" stroke-opacity="0.45" stroke-width="1.1"/>
+    <rect x="1.5" y="1.5" width="173" height="14" rx="7" fill="#FFFFFF" opacity="0.05"/>
+    <text x="88" y="34" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="600" letter-spacing="0.3">Resume</text>
+  </g>
+
+</g>
 
 </svg>
